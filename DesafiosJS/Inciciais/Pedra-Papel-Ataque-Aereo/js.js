@@ -1,39 +1,21 @@
-//Minha implementação do print para testes
-function print(variavel){
-    console.log(variavel)
-}
-//Minha implementação do gets(). Não usar no desafio. O gets() já é implementado no sistema
-function gets(pergunta) {
-    let valor = prompt(pergunta);
-    return valor;
-}
+// a função gets() é implementada dentro do sistema para ler as entradas(inputs) dos dados e a função print() para imprimir a saída (output) de dados e já pula uma linha ("\n")
+// Abaixo segue um exemplo de código que você pode ou não utilizar
 
-//capturando div saida
-let saida = document.getElementById("saida");
-//para mostrar a saida no html
-function mostrarSaida(valor){
-    saida.innerHTML = valor;
+let N = parseInt(gets());
+let jogador1, jogador2;
+for (let i = 0; i < N; i++) {
+    jogador1 = gets();
+    jogador2 = gets();
+
+//TODO: Complete os espaços em branco com uma possível solução para o desafio
+
+    if(jogador1.toUpperCase() === "ATAQUE" && jogador2.toUpperCase() === "ATAQUE")
+        print("Aniquilacao mutua");
+    else if (                                                )
+        print("Ambos venceram");
+    else if (                                               ) print("Jogador 1 venceu");
+    else if                                                 ) print("Jogador 2 venceu");
+    else if (                                               ) print("Jogador 1 venceu");
+    else if (                                               ) print("Jogador 2 venceu");
+    else print("Sem ganhador");
 }
-
-//Desafio:
-let array = [ 2, 3, 5, 7, 11, 13, 18, 34 ];
-let html = "";
-
-for (let i = 0; i < array.length; i++){
-    if ( array[i] % 2 == 0){
-        print(array[i]);
-        html += array[i] + "<br>";
-    }
-}
-
-mostrarSaida(html);
-//Outra opção
-html += "Segunda opção:<br>";
-console.log("Segunda opção:");
-array.forEach(elemento => {
-    if(elemento % 2 == 0){
-        print(elemento);
-        html += elemento + "<br>";
-    }
-});
-mostrarSaida(html);

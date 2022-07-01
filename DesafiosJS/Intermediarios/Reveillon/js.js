@@ -1,32 +1,18 @@
-//Minha implementação do print para testes
-function print(variavel){
-    console.log(variavel)
+// a função gets() é implementada dentro do sistema para ler as entradas(inputs) dos dados e a função print() para imprimir a saída (output) de dados e já pula uma linha ("\n")
+// Abaixo segue um exemplo de código que você pode ou não utilizar
+
+let T = parseInt(gets());
+let N;
+
+//TODO: Complete os espaços em branco com uma possível solução para o desafio
+
+while (T !==      ) {
+    for (let i = 1; i <= T; i++) {
+        N = parseInt(gets());
+        if (N % 2 !== 0)
+            print(            );
+        else
+            print((           );
+    }
+    T = parseInt(gets());
 }
-//Minha implementação do gets(). Não usar no desafio. O gets() já é implementado no sistema
-function gets(pergunta) {
-    let valor = prompt(pergunta);
-    return valor;
-}
-
-//capturando div saida
-let saida = document.getElementById("saida");
-//para mostrar a saida no html
-function mostrarSaida(valor){
-    saida.innerHTML = valor;
-}
-
-//Desafio:
-let input = gets("Quantos treinos deseja inserir?");
-
-let qtdEntradas = parseInt(input);
-let melhor = 999;
-
-
-for(let i = 0; i < qtdEntradas; i++){
-    input = gets("Qual o tempo do treino?");
-    let tempo = parseFloat(input);
-    if (tempo < melhor) melhor = tempo;
-
-}
-print(melhor);
-mostrarSaida(melhor);
