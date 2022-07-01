@@ -16,9 +16,11 @@ function gets(pergunta) {
 let N = parseInt(gets("Quantos jogos"));
 let jogador1, jogador2;
 
+
+
 for (let i = 0; i < N; i++) {
-    jogador1 = gets("Jogador 1");
-    jogador2 = gets("Jogador 2");
+    jogador1 = gets("Jogador 1").trim();
+    jogador2 = gets("Jogador 2").trim();
 
 
     if(jogador1.toUpperCase() === "ATAQUE" && jogador2.toUpperCase() === "ATAQUE")

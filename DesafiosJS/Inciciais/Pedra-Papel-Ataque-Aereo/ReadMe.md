@@ -13,7 +13,7 @@ Pedra vs. Papel: Neste caso, o jogador com a Pedra derrota o com Papel, porque a
 Papel vs. Papel: Nesta variação, ambos os jogadores ganham, porque o Papel é inútil e ninguém que enfrenta o Papel pode perder.
 - Pedra vs. Pedra: Para este caso não há ganhador, porque depende do que os jogadores decidem fazer com a Pedra e normalmente não fazem nada.
 - Ataque Aéreo vs. Ataque Aéreo: Quando isto acontece, todos os jogadores perdem, devido a Aniquilação Mútua.
-- 
+
 Agora desenvolva um programa que, dada as escolhas de dois jogadores, informe quem venceu o jogo.
 
 **Entrada**
