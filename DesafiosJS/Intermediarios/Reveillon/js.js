@@ -30,7 +30,6 @@ function numeroPedidos(numeroDePessoasNosLados, numeroDePessoasNasPontas){
     return (numeroDePessoasNosLados * 2) + numeroDePessoasNasPontas;
 }
 
-//TODO: Complete os espaços em branco com uma possível solução para o desafio
 
 while (T !== 0) {
     for (let i = 1; i <= T; i++) {
@@ -48,6 +47,6 @@ while (T !== 0) {
         html += totalPedidos + "<br>";
         print(totalPedidos);
     }
-    T = parseInt(gets());
+    T = parseInt(gets("Quantos casos de teste?"));
 }
 mostrarSaida(html);
