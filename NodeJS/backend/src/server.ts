@@ -6,13 +6,13 @@ import { router } from "./routes";
 
 import "./database";
 
-const app = express();
+const server = express();
 
-app.use(cors());
+server.use(cors());
 
-app.use(express.json());
-app.use(router)
+server.use(express.json());
+server.use(router)
 
-app.listen(5000, () => {
+server.listen(5000, () => {
     console.log('Server on port: 5000')
 })

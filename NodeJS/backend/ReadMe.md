@@ -1,0 +1,1 @@
+Me aventurando no mundo do backend API com a Nathaly Souza. Acompanhei o código e inclusive usei muito do código dela como base.
