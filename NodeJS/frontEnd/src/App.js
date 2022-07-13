@@ -1,3 +1,4 @@
+import "./styles.css";
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './components/store';
