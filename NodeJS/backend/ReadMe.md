@@ -1,1 +1,1 @@
-Me aventurando no mundo do backend API com a Nathaly Souza. Acompanhei o código e inclusive usei muito do código dela como base.
+Me aventurando no mundo do Node baixei a API backend API da Nathaly Souza para poder acompanhar o desenvolvimento do front-end. 
